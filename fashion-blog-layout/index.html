@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Fashion Blog</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/responsive.css"> 
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark " id="nav1">
+        <div class="container">
+            <a class="navbar-brand" id="login" href="#">Log in</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" id="createAccount" href="#">Create an account <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" id="checkOut" href="#">Check out</a>
+                    </li>
+                    <li class="nav-item dropdown active" id="usd">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            USD
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                </ul>
+                <div class="icon">
+                    <i class="fab fa-facebook-square fa-2x"></i>
+                </div>
+                <div class="icon">
+                    <i class="fab fa-twitter-square fa-2x"></i>
+                </div>
+                <div class="icon">
+                    <i class="fab fa-google-plus-square fa-2x"></i>
+                </div>
+                <div class="icon">
+                    <i class="fab fa-linkedin fa-2x"></i>
+                </div>
+                <form class="form-inline my-2 my-lg-0" id="search">
+                    <button class="btn  my-2 my-sm-0" id="searchIcon" type="submit"><i
+                            class="fas fa-search"></i></button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg navbar-dark" id="nav2">
+        <div class="container">
+            <div class="logoImg">
+                <img src="images/logo.png" alt="">
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">CATEGORY</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">ABOUT</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">BLOG</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#" id="contacts">CONTACTS</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="banner container">
+        <div class="row">
+            <div class="col-md-9 col-sm-12">
+                <img src="images/banner.png" alt="" class="bannerImg">
+            </div>
+            <div class="col-md-3 col-sm-offset-3 col-sm-6">
+                <div class="card bannerCard">
+                    <div class="card-body bannerCardBody">
+                        <h6 class="card-title bannerCardTitle">SPECIAL OFFER</h6>
+                        </h5>
+                        <p class="card-text bannerCardText">SUMMER COLLECTION <span class="offer"><strong>40%
+                                    OFF</strong></span></p>
+                        <a href="#" class="btn btn-primary bannerButton">SHOP NOW</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mainArea">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="container leftArea">
+                    <div class="image1">
+                        <img src="images/l1.png" alt="">
+                        <div class="imagetext1">
+                            <h4>Lorem Ipsum is simply dummy text of </h4>
+                            <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s been the
+                                industry's standard dummy text ever since the 1500s</p>
+                        </div>
+                    </div>
+                    <div class="navigation">
+                        <ul class="nav justify-content-center">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">LATEST</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled featured" href="#">FEATURED</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row items">
+                    <div class="col-lg-6">
+                        <div class="container">
+                            <div class="item1img">
+                                <img src="images/item1.png" alt="" class="item1">
+                            </div>
+                            <div class="item1txt">
+                                <p>If you are going to use a passage of Lorem Ipsum, you need to be sure</p>
+                                <p><span class="i1t1"><strong>$65.00</strong></span><span
+                                        class="i1t2 disabled">$80.00</span></p>
+                                <a href="#" class="btn btn-primary addtocart">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="container">
+                            <div class="item1img">
+                                <img src="images/item2.png" alt="" class="item1">
+                            </div>
+                            <div class="item1txt">
+                                <p>If you are going to use a passage of Lorem Ipsum, you need to be sure</p>
+                                <p><span class="i1t1"><strong>$65.00</strong></span><span
+                                        class="i1t2 disabled">$80.00</span></p>
+                                <a href="#" class="btn btn-primary addtocart">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="container">
+                            <div class="item1img">
+                                <img src="images/l3.png" alt="" class="item1">
+                            </div>
+                            <div class="item1txt">
+                                <p>If you are going to use a passage of Lorem Ipsum, you need to be sure</p>
+                                <p><span class="i1t1"><strong>$65.00</strong></span><span
+                                        class="i1t2 disabled">$80.00</span></p>
+                                <a href="#" class="btn btn-primary addtocart">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="container">
+                            <div class="item1img">
+                                <img src="images/l4.png" alt="" class="item1">
+                            </div>
+                            <div class="item1txt">
+                                <p>If you are going to use a passage of Lorem Ipsum, you need to be sure</p>
+                                <p><span class="i1t1"><strong>$65.00</strong></span><span
+                                        class="i1t2 disabled">$80.00</span></p>
+                                <a href="#" class="btn btn-primary addtocart">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="container">
+                            <div class="item1img">
+                                <img src="images/item2.png" alt="" class="item1">
+                            </div>
+                            <div class="item1txt">
+                                <p>If you are going to use a passage of Lorem Ipsum, you need to be sure</p>
+                                <p><span class="i1t1"><strong>$65.00</strong></span><span
+                                        class="i1t2 disabled">$80.00</span></p>
+                                <a href="#" class="btn btn-primary addtocart">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="container">
+                            <div class="item1img">
+                                <img src="images/item1.png" alt="" class="item1">
+                            </div>
+                            <div class="item1txt">
+                                <p>If you are going to use a passage of Lorem Ipsum, you need to be sure</p>
+                                <p><span class="i1t1"><strong>$65.00</strong></span><span
+                                        class="i1t2 disabled">$80.00</span></p>
+                                <a href="#" class="btn btn-primary addtocart">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container seeallbtn">
+                        <div class="seeall ">
+                            <button type="button">SEE ALL</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <div class="col-lg-3">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="container midArea">
+                            <div class="events midevent">
+                                <h3>EVENTS</h3>
+                            </div>
+                            <div class="eventimg1">
+                                <div class="midimg">
+                                    <img src="images/mid1.png" alt="">
+                                </div>
+                                <div class="midtxt1">
+                                    <p>Aliquam dapibus tincudunt metus.</p>
+                                    <p><span><strong>2nd sep 2015</strong></span></p>
+                                </div>
+                            </div>
+                            <div class="eventimg1">
+                                <div class="midimg">
+                                    <img src="images/m2.png" alt="">
+                                </div>
+                                <div class="midtxt1">
+                                    <p>Aliquam dapibus tincudunt metus.</p>
+                                    <p><span><strong>2nd sep 2015</strong></span></p>
+                                </div>
+                            </div>
+                            <div class="eventimg1">
+                                <div class="midimg">
+                                    <img src="images/m3.png" alt="">
+                                </div>
+                                <div class="midtxt1">
+                                    <p>Aliquam dapibus tincudunt metus.</p>
+                                    <p><span><strong>2nd sep 2015</strong></span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="events midevent">
+                            <h3>POPULAR</h3>
+                        </div>
+                        <div class="popular">
+                            <p><span>2nd Jan 2013</span></p>
+                            <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit</p>
+                        </div>
+                        <div class="popular">
+                            <p><span>2nd Jan 2013</span></p>
+                            <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit</p>
+                        </div>
+                        <div class="popular">
+                            <p><span>2nd Jan 2013</span></p>
+                            <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit</p>
+                        </div>
+                        <div class="popular">
+                            <p><span>2nd Jan 2013</span></p>
+                            <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit</p>
+                        </div>
+                        <div class="popular">
+                            <p><span>2nd Jan 2013</span></p>
+                            <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit</p>
+                        </div>
+                        <div class="popular">
+                            <p><span>2nd Jan 2013</span></p>
+                            <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit</p>
+                        </div>
+                        <div class="last">
+                            <p><span>2nd Jan 2013</span></p>
+                            <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit</p>
+                        </div>
+                        <div class="midbutton">
+                            <button type="button" class="midbtn">SEE ALL</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="container rightarea">
+                            <div class="events">
+                                <h3>CATEGORIES</h3>
+                            </div>
+                            <ul class="catlist">
+                                <li class="catitem"><a href="#" class="catlink">&#9656; &nbsp; ACCESSORIES</a></li>
+                                <li class="catitem"><a href="#" class="catlink">&#9656; &nbsp; BLOUSES</a></li>
+                                <li class="catitem"><a href="#" class="catlink">&#9656; &nbsp; DRESS</a></li>
+                                <li class="catitem"><a href="#" class="catlink">&#9656; &nbsp; JACKETS</a></li>
+                                <li class="catitem"><a href="#" class="catlink">&#9656; &nbsp; JEANS</a></li>
+                                <li class="catitem"><a href="#" class="catlink">&#9656; &nbsp; JUMPERS</a></li>
+                                <li class="catitem"><a href="#" class="catlink">&#9656; &nbsp; OUTERWEAR</a></li>
+                                <li class="catitem"><a href="#" class="catlink">&#9656; &nbsp; PANTS</a></li>
+                                <li class="catitem"><a href="#" class="catlink">&#9656; &nbsp; SHORTS</a></li>
+                                <li class="catitem"><a href="#" class="catlink">&#9656; &nbsp; SKIRTS</a></li>
+                            </ul>
+                            <div class="rytcrd1">
+                                <div class="rightimg">
+                                    <img src="images/r1.png" alt="">
+                                </div>
+                                <div class="righttxt">
+                                    <h2><strong>OUTERWEAR</strong></h2>
+                                    <a href="#"><strong>View all</strong></a>
+                                </div>
+                            </div>
+                            <div class="rytcrd1">
+                                <div class="rightimg">
+                                    <img src="images/r9.png" alt="">
+                                </div>
+                                <div class="righttxt">
+                                    <p><span class="collection"><strong>BAGS </strong></span>COLLECTION</p>
+                                    <a href="#"><strong>View all</strong></a>
+                                </div>
+                            </div>
+                            <div class="rytcrd1">
+                                <div class="rightimg">
+                                    <img src="images/R3.png" alt="">
+                                </div>
+                                <div class="righttxt rtl">
+                                    <p>ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiu smod tempo</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="foot1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2 company">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="" class="complink">Aenean</a></li>
+                        <li><a href="">Costa</a></li>
+                        <li><a href="">Maldia</a></li>
+                        <li><a href="">Posta</a></li>
+                        <li><a href="">Combinat</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 company">
+                    <h4>Overview</h4>
+                    <ul>
+                        <li><a href="" class="complink">Aenean</a></li>
+                        <li><a href="">Costa</a></li>
+                        <li><a href="">Maldia</a></li>
+                        <li><a href="">Posta</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 company">
+                    <h4>Foe Clients</h4>
+                    <ul>
+                        <li><a href="" class="complink">Aenean</a></li>
+                        <li><a href="">Costa</a></li>
+                        <li><a href="">Maldia</a></li>
+                        <li><a href="">Posta</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 company">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="" class="complink">Home</a></li>
+                        <li><a href="">Category</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Content</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 contactinfo">
+                    <h4>Contact Info</h4>
+
+                    <p><a href=""><i class="fas fa-home"></i> &nbsp; 138 Atlantis Ln Kingsport Illnois 121164</a></p>
+                    <p>Phones:</p>
+                    <p><a href=""><i class="fas fa-phone"></i>&nbsp; 800-2345-6789</a></p>
+                    <p><a href=""><i class="fas fa-print"></i>&nbsp; 800-2345-6789</a></p>
+                    <p>E-mail:</p>
+                    <p><a href=""><i class="fas fa-envelope"></i>&nbsp; mail@fashionblog.com</a></p>
+                </div>
+            </div>
+            <div class="foot2">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <p>© 2015 fashionblogcom | Privacy Policy</p>
+                    </div>
+                    <div class="col-lg-2 offset-lg-6 foot2icon">
+                            <i class="fab fa-facebook fa-2x"></i>
+                            <i class="fab fa-twitter-square fa-2x"></i>
+                            <i class="fab fa-google-plus fa-2x"></i>
+                            <i class="fab fa-youtube fa-2x"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+</body>
+
+</html>
